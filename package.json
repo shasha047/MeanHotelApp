@@ -1,0 +1,40 @@
+{
+  "name": "mean-app",
+  "version": "1.0.0",
+  "description": "hotel app developed using MEAN (without using generators)",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shasha047/hotel-app.git"
+  },
+  "keywords": [
+    "MongoDB",
+    "Express",
+    "AngulasJS",
+    "NodeJS"
+  ],
+  "author": "shashank bhatnagar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shasha047/hotel-app/issues"
+  },
+  "homepage": "https://github.com/shasha047/hotel-app#readme",
+  "dependencies": {
+    "angular": "^1.6.4",
+    "angular-jwt": "^0.1.9",
+    "angular-route": "^1.6.4",
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "jsonwebtoken": "^7.4.0",
+    "mongodb": "^2.2.26",
+    "mongoose": "^4.9.7"
+  },
+  "devDependencies": {
+    "mocha": "^3.3.0"
+  }
+}
